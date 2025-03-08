@@ -1,0 +1,15 @@
+CREATE DATABASE companyDB;
+stName VARCHAR(40) NOT NULL,
+Last
+
+USE companyDB;
+CREATE TABLE emplyoees(
+EmplyoeeID INT PRIMARY KEY,
+FirName VARCHAR(50) NOT NULL
+Salary DECIMAL() NOT NULL);
+
+
+INSERT INTO emplyoees(EmplyoeeID,FirstName,LastName,Salary)VALUES(1,'PRAVIN','KUMAR',80000);
+
+
+SELECT * FROM emplyoees WHERE Salary > 40000;
